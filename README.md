@@ -71,13 +71,13 @@ https://github.com/GezerGoktug/SassRealEstateProject/assets/146975286/ee70841e-a
 1.**Download the repository**
 
 ```
-git clone https://github.com/GezerGoktug/ToDoList.git
+git clone https://github.com/GezerGoktug/SassRealEstateProject.git
 ```
 
 2.**Enter the project directory**
 
 ```
-cd ToDoList
+cd SassRealEstateProject
 ```
 
 3.**Install Required Dependencies**
