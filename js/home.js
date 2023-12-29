@@ -9,7 +9,7 @@ const pricingstar = document.querySelectorAll(".star-pricing");
 // Yıldız ikonları için bir durum değişkeni
 let isStar = false;
 // Başlangıçta slider durumu sağlar
-sliderimage[0].style.backgroundImage = `linear-gradient(rgba(67, 161, 193, 0.3), rgba(81, 175, 181, 0.6)),url('/image/sliderimage/1.jpg')`;
+sliderimage[0].style.backgroundImage = `linear-gradient(rgba(67, 161, 193, 0.3), rgba(81, 175, 181, 0.6)),url('../RealEstateProject/image/sliderimage/1.jpg')`;
 icon1.style.opacity = "1.0";
 icon2.style.opacity = "0.5";
 icon3.style.opacity = "0.5";
@@ -76,7 +76,7 @@ function updateSlider(imageName, activeIcon, inactiveIcon1, inactiveIcon2) {
   // Slider ve ikon renk düzenlemeleri
   sliderimage[0].style.opacity = 0; // Geçiş başlamadan önce opaklığı sıfırla
   setTimeout(() => {
-    sliderimage[0].style.backgroundImage = `linear-gradient(rgba(67, 161, 193, 0.3), rgba(81, 175, 181, 0.6)),url('/image/sliderimage/${imageName}')`;
+    sliderimage[0].style.backgroundImage = `linear-gradient(rgba(67, 161, 193, 0.3), rgba(81, 175, 181, 0.6)),url('../RealEstateProject/image/sliderimage/${imageName}')`;
     activeIcon.style.opacity = "1.0";
     inactiveIcon1.style.opacity = "0.5";
     inactiveIcon2.style.opacity = "0.5";
@@ -119,3 +119,6 @@ function togglebarShow() {
     toggleClick = false;
   }
 }
+
+
+
